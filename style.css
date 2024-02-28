@@ -125,12 +125,22 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 20px;
+    }
+    .header{
+        padding-bottom: 13px;
     }
     .notification_container{
         width: 600px;
         height: auto;
         border-radius: 10px;
-        font-size: 1rem;
+        font-size: 10px;
         background-color: hsl(0, 0%, 100%);
+}
+.notif-parent{
+    gap: 3px;
+}
+.notif-wrapper{
+    padding: 7px;
 }
 }
